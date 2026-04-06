@@ -5,15 +5,25 @@ The model is trained using a Random Forest Classifier and is served via a FastAP
 
 # 🚀 Features
 
-Machine Learning Model: Utilizes a RandomForestClassifier trained via scikit-learn.
+## Machine Learning Model:
 
-High Accuracy: The trained model achieved an evaluation accuracy of approximately 98.7% on the test split.
+Utilizes a RandomForestClassifier trained via scikit-learn.
 
-FastAPI Backend: A lightweight, high-performance web framework serves the /predict endpoint.
+## High Accuracy:
 
-Data Validation: Implements Pydantic base models to enforce type hints and validate incoming JSON payloads.
+The trained model achieved an evaluation accuracy of approximately 98.7% on the test split.
 
-Model Serialization: The trained classifier is serialized and exported as classifier.pkl using Python's built-in pickle library.
+## FastAPI Backend: 
+
+A lightweight, high-performance web framework serves the /predict endpoint.
+
+## Data Validation:
+
+Implements Pydantic base models to enforce type hints and validate incoming JSON payloads.
+
+## Model Serialization: 
+
+The trained classifier is serialized and exported as classifier.pkl using Python's built-in pickle library.
 
 # 🛠️ Tech Stack
 
